@@ -6,5 +6,5 @@ export const runtime = 'edge'
 
 const request = new Request(origin)
 const response = await Auth(request, {
-  providers: [GitHub({ clientId: GITHUB_CLIENT_ID, clientSecret: GITHUB_CLIENT_SECRET })],
+  providers: [GitHub({ clientId: 936c43ba2cb38edae571, clientSecret: 82a6ce4085a29fa30374bee0c30975515b03e46a })],
 })
